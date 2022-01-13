@@ -30,7 +30,7 @@ export const ImageDiv = styled.img`
 
 export const HeaderText = styled.span`
   font-size: 18px;
-  color: ${(props) => props ? props.color : 'black'};
+  color: ${(props) => props ? props.color : 'lightgrey'};
   cursor: pointer;
   background-color: white;
   display: flex

@@ -8,7 +8,7 @@ function Security() {
   return (
     <div className='security__wrapper'>
       <div className='security__square'>
-        <CallToActionIcon fontSize='large' />
+        <CallToActionIcon fontSize='large' style={{ fill: "orangered" }} />
         <div className='security__info'>
           <h5>Identity</h5>
           <h4>Disable</h4>
@@ -17,7 +17,7 @@ function Security() {
       </div>
 
       <div className='security__square'>
-        <ChatIcon fontSize='large' />
+        <ChatIcon fontSize='large' style={{ fill: "aqua"}} />
         <div className='security__info'>
           <h5>Phone</h5>
           <h4>Disable</h4>

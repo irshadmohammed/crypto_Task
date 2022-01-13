@@ -1,35 +1,3 @@
-// import React from 'react';
-// import Grid from '@mui/material/Grid';
-// import Paper from '@mui/material/Paper';
-// import { styled } from '@mui/material/styles';
-// import './Details.css'
-
-// function Details() {
-
-//   const Item = styled(Paper)(({ theme }) => ({
-//     ...theme.typography.body2,
-//     padding: theme.spacing(1),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-//   }));
-
-
-//   return (
-//     <div className="details__container">
-//       <Grid containter spacing={2}>
-//         <Grid item xs={8}>
-//           <Item>xs=8</Item>
-//           <Item>xs=8</Item>
-//         </Grid>
-//         <Grid item xs={2}>
-//         </Grid>
-//       </Grid>
-//     </div>
-//   )
-// }
-
-// export default Details
-
 import * as React from 'react';
 import './Details.css'
 import { Container } from '@mui/material';
