@@ -1,0 +1,22 @@
+.header__icon {
+  object-fit: contain;
+  height: 100px;
+  margin-left: 20px;  
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 9vw;
+  background-color: white;
+  margin-right: 80px;
+  cursor: pointer;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}

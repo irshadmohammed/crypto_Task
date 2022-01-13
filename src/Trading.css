@@ -1,0 +1,17 @@
+.trading__container {
+  box-shadow: 0px 10px 15px;
+  background-color: white;
+  width: 250px;
+  height: 100px;
+  border: 1px solid red;
+  border-radius: 25px;
+}
+
+.trading__arrowIcon {
+  margin: 20px 0 0 30px;
+}
+
+.trading__container > span {
+  font-size: 26px;
+  font-weight: bold;
+}

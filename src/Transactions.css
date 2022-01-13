@@ -1,0 +1,65 @@
+.transactions__container {
+  margin: auto;
+  width: 80%;
+  margin-top: 70px;
+  padding-bottom: 50px;
+}
+
+.transactions__square {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  margin-right: 20px;
+  box-shadow: 0px 10px 15px;
+  border: none;
+}
+
+.transactions__headings {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  font-family: sans-serif;
+  padding-bottom: 25px;
+}
+
+.transactions__headings > h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.transactions__moreTitle {
+  font-weight: bold;
+  font-size: 18px;
+  color: gray;
+}
+
+.transactions__arrow {
+  align-items: center;
+  display: flex;
+}
+
+.transactions__Heading {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.trading__progressOne {
+  width: 150px;
+  margin-left: 33px;
+  height: 5px !important;
+}
+
+.transactions__titles {
+  margin-left: 100px;
+  font-size: 18px;
+  color: blue;
+  font-weight: bold;
+}
+
+.transactions__subHead {
+  display: flex;
+  flex-direction: column;
+}

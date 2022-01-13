@@ -1,0 +1,28 @@
+.details__container {
+  padding: 25px;
+}
+
+.details__title {
+  color: lightgray;
+  font-size: 16px;
+}
+
+.details__amountSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.details__number {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.details__buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details__secondColumn {
+  border-left: 1px solid black;
+}

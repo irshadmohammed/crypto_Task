@@ -1,0 +1,31 @@
+.security__square {
+  width: 250px;
+  height: 100px;
+  border: 1px solid;
+  align-items: center;
+  padding-left: 15px;
+  display: flex;
+  border-radius: 20px;
+  margin-right: 20px;
+  box-shadow: 0px 10px 15px;
+  border: none;
+}
+
+.security__info {
+  margin-left: 15px;
+}
+
+.security__info > h4 {
+  font-size: 14px;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.security__info > h5 {
+  font-weight: bold;
+}
+
+.security__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
